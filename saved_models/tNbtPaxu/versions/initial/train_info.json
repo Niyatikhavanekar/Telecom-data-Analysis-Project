@@ -1,0 +1,87 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 1,
+    "importantParams": [
+      {
+        "name": "trees",
+        "vals": [
+          "100"
+        ]
+      },
+      {
+        "name": "depth",
+        "vals": [
+          "13"
+        ]
+      },
+      {
+        "name": "min_samples",
+        "vals": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "trees",
+        "val": "100"
+      },
+      {
+        "name": "depth",
+        "val": "13"
+      },
+      {
+        "name": "min_samples",
+        "val": "1"
+      }
+    ]
+  },
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading train set",
+        "time": 17
+      },
+      {
+        "name": "Loading test set",
+        "time": 54
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 74
+      },
+      {
+        "name": "Preprocessing train set",
+        "time": 55
+      },
+      {
+        "name": "Preprocessing test set",
+        "time": 48
+      },
+      {
+        "name": "Fitting model",
+        "time": 240
+      },
+      {
+        "name": "Saving model",
+        "time": 26
+      },
+      {
+        "name": "Scoring model",
+        "time": 1118
+      }
+    ]
+  },
+  "startTime": 1592643738846,
+  "endTime": 1592643740533,
+  "preprocessingTime": 249,
+  "trainingTime": 1438
+}

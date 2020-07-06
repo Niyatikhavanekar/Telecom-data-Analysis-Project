@@ -1,0 +1,40 @@
+{
+  "description": "KMeans (k\u003d7)\nCluster outliers\n\nTrained in 1 seconds on 3333 records\n",
+  "name": "KMeans (k\u003d7)",
+  "starred": false,
+  "clusterMetas": {
+    "cluster_0": {
+      "name": "cluster_0",
+      "color": "#f06548"
+    },
+    "cluster_1": {
+      "name": "cluster_1",
+      "color": "#fdc766"
+    },
+    "cluster_2": {
+      "name": "cluster_2",
+      "color": "#7bc9a6"
+    },
+    "cluster_3": {
+      "name": "cluster_3",
+      "color": "#4ec5da"
+    },
+    "cluster_4": {
+      "name": "cluster_4",
+      "color": "#548ecb"
+    },
+    "cluster_5": {
+      "name": "cluster_5",
+      "color": "#97668f"
+    },
+    "cluster_6": {
+      "name": "cluster_6",
+      "color": "#5e2974"
+    }
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0
+}

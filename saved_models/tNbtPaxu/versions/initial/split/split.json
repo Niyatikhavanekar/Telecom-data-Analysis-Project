@@ -1,0 +1,71 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdSeed": 1337,
+    "testOnLargerValues": true,
+    "kfold": false,
+    "nFolds": 5,
+    "instanceIdRefresher": 0,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1592643531866,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM,splitBeforePrepare\u003dtrue,ds\u003dcustomers_prepared_scored,sel\u003d(method\u003dhead-s,records\u003d100000),r\u003d0.8,s\u003d1337",
+  "instanceId": "e2a79d15e31e41bdee21a15e9bb48710-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"State","type":"string"},
+      {"name":"Account Length","type":"bigint"},
+      {"name":"Area Code","type":"bigint"},
+      {"name":"Phone","type":"string"},
+      {"name":"Int\u0027l Plan","type":"bigint"},
+      {"name":"VMail Plan","type":"bigint"},
+      {"name":"VMail Message","type":"bigint"},
+      {"name":"Day_Mins","type":"double"},
+      {"name":"Day Calls","type":"bigint"},
+      {"name":"Day_Charge","type":"double"},
+      {"name":"Eve_Mins","type":"double"},
+      {"name":"Eve Calls","type":"bigint"},
+      {"name":"Eve_Charge","type":"double"},
+      {"name":"Night_Mins","type":"double"},
+      {"name":"Night Calls","type":"bigint"},
+      {"name":"Night_Charge","type":"double"},
+      {"name":"Intl_Mins","type":"double"},
+      {"name":"Total_min","type":"double"},
+      {"name":"Intl Calls","type":"bigint"},
+      {"name":"Intl_Charge","type":"double"},
+      {"name":"Total_Charge","type":"double"},
+      {"name":"ratio_total_min","type":"double"},
+      {"name":"CustServ Calls","type":"bigint"},
+      {"name":"Churn?","type":"bigint"},
+      {"name":"cluster_labels","type":"string"}
+    ],
+    "userModified": false
+  },
+  "trainPath": "train.csv.gz",
+  "testPath": "test.csv.gz",
+  "trainRows": 2667,
+  "testRows": 666,
+  "fullRows": 0
+}

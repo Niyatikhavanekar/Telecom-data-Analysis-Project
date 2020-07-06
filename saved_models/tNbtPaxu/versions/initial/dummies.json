@@ -1,0 +1,72 @@
+{
+    "details": {
+        "State": {
+            "levels": [
+                "WV", 
+                "MN", 
+                "WI", 
+                "OR", 
+                "AL", 
+                "VA", 
+                "MI", 
+                "NY", 
+                "OH", 
+                "WY", 
+                "NC", 
+                "WA", 
+                "CT", 
+                "IN", 
+                "MO", 
+                "MA", 
+                "KS", 
+                "UT", 
+                "CO", 
+                "ID", 
+                "TX", 
+                "VT", 
+                "NJ", 
+                "ME", 
+                "MD", 
+                "SC", 
+                "NV", 
+                "NE", 
+                "MS", 
+                "MT", 
+                "FL", 
+                "NM", 
+                "IL", 
+                "OK", 
+                "ND", 
+                "DE", 
+                "AZ", 
+                "LA", 
+                "SD", 
+                "KY", 
+                "NH", 
+                "HI", 
+                "AK", 
+                "DC", 
+                "AR", 
+                "PA", 
+                "GA", 
+                "RI", 
+                "TN", 
+                "IA", 
+                "CA"
+            ], 
+            "with_others": true
+        }, 
+        "cluster_labels": {
+            "levels": [
+                "cluster_1", 
+                "cluster_3", 
+                "cluster_5", 
+                "cluster_2", 
+                "cluster_4", 
+                "cluster_0", 
+                "cluster_6"
+            ], 
+            "with_others": true
+        }
+    }
+}

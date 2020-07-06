@@ -1,0 +1,2792 @@
+{
+    "metrics": {
+        "nbClusters": 7, 
+        "silhouette": 0.08345201719041334, 
+        "inertia": 51972.42644672193
+    }, 
+    "reduce_vars": [], 
+    "train_nb_features": 74, 
+    "train_nb_records": 3333, 
+    "summary": {
+        "clusters": []
+    }, 
+    "variables_importance": {
+        "variables": [
+            "Account Length", 
+            "Area Code", 
+            "Churn?", 
+            "CustServ Calls", 
+            "Day Calls", 
+            "Day_Charge", 
+            "Day_Mins", 
+            "Eve Calls", 
+            "Eve_Charge", 
+            "Eve_Mins", 
+            "Int'l Plan", 
+            "Intl Calls", 
+            "Intl_Charge", 
+            "Intl_Mins", 
+            "Night Calls", 
+            "Night_Charge", 
+            "Night_Mins", 
+            "Total_Charge", 
+            "Total_min", 
+            "VMail Message", 
+            "VMail Plan", 
+            "dummy:State:WV", 
+            "dummy:State:MN", 
+            "dummy:State:NY", 
+            "dummy:State:AL", 
+            "dummy:State:WI", 
+            "dummy:State:OH", 
+            "dummy:State:OR", 
+            "dummy:State:WY", 
+            "dummy:State:VA", 
+            "dummy:State:CT", 
+            "dummy:State:MI", 
+            "dummy:State:ID", 
+            "dummy:State:VT", 
+            "dummy:State:TX", 
+            "dummy:State:UT", 
+            "dummy:State:IN", 
+            "dummy:State:KS", 
+            "dummy:State:MD", 
+            "dummy:State:MT", 
+            "dummy:State:NJ", 
+            "dummy:State:NC", 
+            "dummy:State:NV", 
+            "dummy:State:WA", 
+            "dummy:State:CO", 
+            "dummy:State:MS", 
+            "dummy:State:RI", 
+            "dummy:State:MA", 
+            "dummy:State:AZ", 
+            "dummy:State:MO", 
+            "dummy:State:FL", 
+            "dummy:State:NM", 
+            "dummy:State:ME", 
+            "dummy:State:ND", 
+            "dummy:State:DE", 
+            "dummy:State:OK", 
+            "dummy:State:NE", 
+            "dummy:State:SC", 
+            "dummy:State:SD", 
+            "dummy:State:KY", 
+            "dummy:State:IL", 
+            "dummy:State:NH", 
+            "dummy:State:AR", 
+            "dummy:State:DC", 
+            "dummy:State:GA", 
+            "dummy:State:TN", 
+            "dummy:State:HI", 
+            "dummy:State:AK", 
+            "dummy:State:LA", 
+            "dummy:State:PA", 
+            "dummy:State:IA", 
+            "dummy:State:CA"
+        ], 
+        "importances": [
+            0.012253132067618492, 
+            0.00400270724964005, 
+            0.03963103511227935, 
+            0.008141291558327107, 
+            0.011494688762496104, 
+            0.06825549393418165, 
+            0.06689124547743722, 
+            0.011649705644455886, 
+            0.033990300677127216, 
+            0.03208480860188296, 
+            0.06926191932916465, 
+            0.008198918850166187, 
+            0.011048219723177972, 
+            0.011880400152836559, 
+            0.010867067935723573, 
+            0.049542549851588305, 
+            0.05750764320908972, 
+            0.11874629102103347, 
+            0.11937178771074669, 
+            0.10712161839384429, 
+            0.11593527171334918, 
+            0.0005558071998424567, 
+            0.0007932709602005769, 
+            0.0006781615243298185, 
+            0.0006652894626177775, 
+            0.0009729847474908019, 
+            0.0006958278945041553, 
+            0.0006544685827334238, 
+            0.0007003531746582078, 
+            0.0007705334670681405, 
+            0.0006371794032569081, 
+            0.0008384072751341435, 
+            0.0005656837580621282, 
+            0.0005316604097541568, 
+            0.0008510947285956826, 
+            0.0008523992000163323, 
+            0.00046250330218055316, 
+            0.0007565708261841403, 
+            0.000594482630984358, 
+            0.0006110598852547505, 
+            0.0006458576246932834, 
+            0.0007224116780928705, 
+            0.0006494452622806223, 
+            0.00039563908894615414, 
+            0.0005721021021617201, 
+            0.0007022867169417242, 
+            0.0007512401137332419, 
+            0.0007725174353654528, 
+            0.000660199125487059, 
+            0.0007311088162351519, 
+            0.0006800170997474954, 
+            0.000419634208745377, 
+            0.0005350858793005188, 
+            0.0008160569308179673, 
+            0.000636631942494354, 
+            0.0006410346382328869, 
+            0.0005206317510678429, 
+            0.0005473102567419374, 
+            0.0004913502452115789, 
+            0.0003821034161371039, 
+            0.0007840563253474546, 
+            0.00033410553024762924, 
+            0.0007821119782640714, 
+            0.0005712701784657809, 
+            0.0004925054725812155, 
+            0.0005233714770112667, 
+            0.0005088403512323147, 
+            0.0005598755869511543, 
+            0.0004998097338682183, 
+            0.0005810741001562357, 
+            0.00045566714726101804, 
+            0.0005708123771442658
+        ]
+    }, 
+    "processed_feature_names": [
+        "Account Length", 
+        "Area Code", 
+        "Churn?", 
+        "CustServ Calls", 
+        "Day Calls", 
+        "Day_Charge", 
+        "Day_Mins", 
+        "Eve Calls", 
+        "Eve_Charge", 
+        "Eve_Mins", 
+        "Int'l Plan", 
+        "Intl Calls", 
+        "Intl_Charge", 
+        "Intl_Mins", 
+        "Night Calls", 
+        "Night_Charge", 
+        "Night_Mins", 
+        "Total_Charge", 
+        "Total_min", 
+        "VMail Message", 
+        "VMail Plan", 
+        "dummy:State:WV", 
+        "dummy:State:MN", 
+        "dummy:State:NY", 
+        "dummy:State:AL", 
+        "dummy:State:WI", 
+        "dummy:State:OH", 
+        "dummy:State:OR", 
+        "dummy:State:WY", 
+        "dummy:State:VA", 
+        "dummy:State:CT", 
+        "dummy:State:MI", 
+        "dummy:State:ID", 
+        "dummy:State:VT", 
+        "dummy:State:TX", 
+        "dummy:State:UT", 
+        "dummy:State:IN", 
+        "dummy:State:KS", 
+        "dummy:State:MD", 
+        "dummy:State:MT", 
+        "dummy:State:NJ", 
+        "dummy:State:NC", 
+        "dummy:State:NV", 
+        "dummy:State:WA", 
+        "dummy:State:CO", 
+        "dummy:State:MS", 
+        "dummy:State:RI", 
+        "dummy:State:MA", 
+        "dummy:State:AZ", 
+        "dummy:State:MO", 
+        "dummy:State:FL", 
+        "dummy:State:NM", 
+        "dummy:State:ME", 
+        "dummy:State:ND", 
+        "dummy:State:DE", 
+        "dummy:State:OK", 
+        "dummy:State:NE", 
+        "dummy:State:SC", 
+        "dummy:State:SD", 
+        "dummy:State:KY", 
+        "dummy:State:IL", 
+        "dummy:State:NH", 
+        "dummy:State:AR", 
+        "dummy:State:DC", 
+        "dummy:State:GA", 
+        "dummy:State:TN", 
+        "dummy:State:HI", 
+        "dummy:State:AK", 
+        "dummy:State:LA", 
+        "dummy:State:PA", 
+        "dummy:State:IA", 
+        "dummy:State:CA", 
+        "dummy:State:N/A", 
+        "dummy:State:__Others__"
+    ], 
+    "train_nb_outliers": 0, 
+    "cluster_description": [
+        {
+            "variable": "dummy:State:WV", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.027777777777777776
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.029612756264236904
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.0425531914893617
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0325
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.03776683087027915
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MN", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.036616161616161616
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.035
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.008210180623973728
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.03167420814479638
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NY", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.026515151515151516
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.03436988543371522
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0225
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:AL", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03065134099616858
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01893939393939394
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.03
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.034482758620689655
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:WI", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.025252525252525252
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.022779043280182234
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0275
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:OH", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.023989898989898988
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.04
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.021346469622331693
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:OR", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.022779043280182234
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.027823240589198037
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.015
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.024630541871921183
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.03619909502262444
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:WY", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.026515151515151516
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0175
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.024630541871921183
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:VA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.027777777777777776
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0275
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:CT", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01893939393939394
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.024549918166939442
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0275
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MI", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.034482758620689655
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.03
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:ID", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.015151515151515152
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.024549918166939442
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.04
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.021346469622331693
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:VT", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01532567049808429
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.026515151515151516
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.019639934533551555
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.02
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:TX", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.012626262626262626
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.029459901800327332
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0175
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.024630541871921183
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.04524886877828054
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:UT", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02733485193621868
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0175
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:IN", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0038314176245210726
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.027777777777777776
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.014729950900163666
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0275
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:KS", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.026515151515151516
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.019639934533551555
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0275
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.014778325123152709
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.03619909502262444
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MD", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01309328968903437
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.026272577996715927
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.049773755656108594
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MT", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0038314176245210726
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.016414141414141416
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.03189066059225513
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.019639934533551555
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0225
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NJ", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.022727272727272728
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.008183306055646482
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.02
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.019704433497536946
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.049773755656108594
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NC", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.034482758620689655
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01309328968903437
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.025
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.027914614121510674
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NV", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03065134099616858
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.023989898989898988
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.01
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.027149321266968326
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:WA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021464646464646464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.024549918166939442
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.005
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.03167420814479638
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:CO", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021464646464646464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.022779043280182234
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0175
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.016420361247947456
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MS", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.010101010101010102
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.025056947608200455
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0225
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.019704433497536946
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:RI", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021464646464646464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.025
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.016420361247947456
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03065134099616858
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.026515151515151516
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.008183306055646482
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0225
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:AZ", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.008838383838383838
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.03189066059225513
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02618657937806874
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.01
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.031198686371100164
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:MO", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.022779043280182234
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.019639934533551555
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.01
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:FL", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.03065134099616858
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.011456628477905073
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.025
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.019704433497536946
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NM", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.02904040404040404
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.014729950900163666
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0075
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:ME", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021464646464646464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.016366612111292964
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.019704433497536946
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:ND", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.02681992337164751
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.015151515151515152
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02733485193621868
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.009819967266775777
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.015
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.024630541871921183
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:DE", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.034482758620689655
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.022727272727272728
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.016366612111292964
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:OK", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.016414141414141416
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0175
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NE", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.021464646464646464
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.02
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:SC", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.012626262626262626
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.022779043280182234
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.03273322422258593
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.009852216748768473
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.03167420814479638
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:SD", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01532567049808429
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.016414141414141416
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.025056947608200455
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.009819967266775777
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0225
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:KY", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01532567049808429
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01893939393939394
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.025056947608200455
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.01
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:IL", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.05363984674329502
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.008838383838383838
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.011389521640091117
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.015
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.019704433497536946
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.0
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:NH", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.016366612111292964
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.016420361247947456
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:AR", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.014729950900163666
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.02
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:DC", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.018223234624145785
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.022913256955810146
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.025
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.008210180623973728
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.004524886877828055
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:GA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.007662835249042145
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.012626262626262626
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.016366612111292964
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.03
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.016420361247947456
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.01809954751131222
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:TN", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.019157088122605363
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.020202020202020204
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.011389521640091117
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.016366612111292964
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.02
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:HI", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.011494252873563218
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.015151515151515152
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.025056947608200455
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.005
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.016420361247947456
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:AK", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01532567049808429
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.015151515151515152
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.02127659574468085
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.014778325123152709
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.0
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:LA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0038314176245210726
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01893939393939394
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.015
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0180623973727422
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.0
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:PA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.022988505747126436
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.006313131313131313
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.01366742596810934
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.015
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:IA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.017676767676767676
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.02050113895216401
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01309328968903437
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0075
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.00904977375565611
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:CA", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.01532567049808429
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.007575757575757576
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.015945330296127564
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.0032733224222585926
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.01
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.013574660633484163
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:N/A", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.0
+                }
+            ]
+        }, 
+        {
+            "variable": "dummy:State:__Others__", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.0
+                }
+            ]
+        }, 
+        {
+            "variable": "Int'l Plan", 
+            "var": 0.14, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 1.0
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0025252525252525255
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.011389521640091117
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.01800327332242226
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.0375
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.0
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.13122171945701358
+                }
+            ]
+        }, 
+        {
+            "variable": "CustServ Calls", 
+            "var": 0.01, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 1.4252873563218391
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 1.5606060606060606
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 1.6059225512528474
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 1.7168576104746318
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 1.4625
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 1.5106732348111658
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 1.5475113122171946
+                }
+            ]
+        }, 
+        {
+            "variable": "VMail Message", 
+            "var": 190.8, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 7.578544061302682
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.005050505050505051
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 29.27107061503417
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.03436988543371522
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 29.6425
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.2512315270935961
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.5927601809954751
+                }
+            ]
+        }, 
+        {
+            "variable": "Night_Mins", 
+            "var": 642.2, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 191.20766283524904
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 235.73080808080792
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 187.62915717539846
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 190.69983633387886
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 219.3769999999999
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 160.80279146141203
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 218.71493212669674
+                }
+            ]
+        }, 
+        {
+            "variable": "Intl_Mins", 
+            "var": 0.07, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 10.70383141762452
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 10.21527777777777
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 9.89817767653758
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 10.167594108019657
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 10.442000000000002
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 10.175205254515605
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 10.432126696832583
+                }
+            ]
+        }, 
+        {
+            "variable": "Account Length", 
+            "var": 7.15, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 105.02298850574712
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 98.03282828282828
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 98.0
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 101.7872340425532
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 103.5375
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 102.73070607553366
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 102.28054298642535
+                }
+            ]
+        }, 
+        {
+            "variable": "Eve_Mins", 
+            "var": 645.99, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 199.3777777777778
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 222.3042929292928
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 181.2084282460137
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 171.1319148936169
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 227.40675000000002
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 187.6234811165843
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 237.2280542986424
+                }
+            ]
+        }, 
+        {
+            "variable": "Eve Calls", 
+            "var": 1.36, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 100.74712643678161
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 98.42424242424242
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 99.17995444191344
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 100.28150572831424
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 100.6825
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 102.04105090311987
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 100.47963800904978
+                }
+            ]
+        }, 
+        {
+            "variable": "Total_min", 
+            "var": 7082.59, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 584.5195402298851
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 645.3710858585856
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 525.8200455580869
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 494.31325695581
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 670.5845000000003
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 568.1206896551716
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 732.6339366515833
+                }
+            ]
+        }, 
+        {
+            "variable": "Eve_Charge", 
+            "var": 4.67, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 16.94743295019156
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 18.896085858585863
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 15.402984054669703
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 14.546448445171842
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 19.329900000000027
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 15.948144499178976
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 20.16420814479636
+                }
+            ]
+        }, 
+        {
+            "variable": "Day_Mins", 
+            "var": 2226.54, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 183.23026819923376
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 177.12070707070689
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 147.08428246013668
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 122.31391162029446
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 213.35875
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 209.51921182266008
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 266.25882352941176
+                }
+            ]
+        }, 
+        {
+            "variable": "Intl_Charge", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 2.890383141762454
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 2.758497474747477
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 2.672984054669706
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 2.7458101472995082
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 2.8200249999999993
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 2.7478160919540264
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 2.8175113122171958
+                }
+            ]
+        }, 
+        {
+            "variable": "Day Calls", 
+            "var": 1.18, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 100.57088122605364
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 100.7739898989899
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 100.29157175398633
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 100.58265139116203
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 99.3975
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 99.72742200328408
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 102.77375565610859
+                }
+            ]
+        }, 
+        {
+            "variable": "Total_Charge", 
+            "var": 107.4, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 59.591877394636036
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 62.37362373737375
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 51.524031890660616
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 46.66793780687395
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 68.29352499999999
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 61.55093596059121
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 78.08846153846156
+                }
+            ]
+        }, 
+        {
+            "variable": "Churn?", 
+            "var": 0.13, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.4061302681992337
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.01893939393939394
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 0.07517084282460136
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.13911620294599017
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 0.025
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.021346469622331693
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 1.0
+                }
+            ]
+        }, 
+        {
+            "variable": "Night_Charge", 
+            "var": 1.3, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 8.604329501915707
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 10.607954545454543
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 8.443371298405468
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 8.581734860883792
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 9.87202499999999
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 7.236141215106733
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 9.842262443438909
+                }
+            ]
+        }, 
+        {
+            "variable": "Night Calls", 
+            "var": 1.02, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 101.23371647509579
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 100.66666666666667
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 100.55353075170842
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 99.52536824877251
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 101.2125
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 98.39901477832512
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 100.2081447963801
+                }
+            ]
+        }, 
+        {
+            "variable": "Intl Calls", 
+            "var": 0.0, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 4.513409961685824
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 4.465909090909091
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 4.414578587699316
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 4.5499181669394435
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 4.5625
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 4.426929392446634
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 4.416289592760181
+                }
+            ]
+        }, 
+        {
+            "variable": "Day_Charge", 
+            "var": 64.35, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 31.149731800766297
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 30.11108585858586
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 25.004692482915686
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 20.793944353518818
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 36.271574999999984
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 35.618834154351404
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 45.26447963800905
+                }
+            ]
+        }, 
+        {
+            "variable": "VMail Plan", 
+            "var": 0.22, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 0.26053639846743293
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 0.0012626262626262627
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 1.0
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 0.0016366612111292963
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 1.0
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 0.013136288998357963
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 0.02262443438914027
+                }
+            ]
+        }, 
+        {
+            "variable": "Area Code", 
+            "var": 14.68, 
+            "values": [
+                {
+                    "cluster": "cluster_0", 
+                    "value": 445.50191570881225
+                }, 
+                {
+                    "cluster": "cluster_1", 
+                    "value": 437.59974747474746
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 435.0387243735763
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 437.56628477905076
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 437.94
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 434.79802955665025
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 434.2579185520362
+                }
+            ]
+        }, 
+        {
+            "variable": "cluster_size", 
+            "var": 42360.81, 
+            "values": [
+                {
+                    "cluster": "cluster_1", 
+                    "value": 792
+                }, 
+                {
+                    "cluster": "cluster_3", 
+                    "value": 611
+                }, 
+                {
+                    "cluster": "cluster_5", 
+                    "value": 609
+                }, 
+                {
+                    "cluster": "cluster_2", 
+                    "value": 439
+                }, 
+                {
+                    "cluster": "cluster_4", 
+                    "value": 400
+                }, 
+                {
+                    "cluster": "cluster_0", 
+                    "value": 261
+                }, 
+                {
+                    "cluster": "cluster_6", 
+                    "value": 221
+                }
+            ]
+        }
+    ]
+}

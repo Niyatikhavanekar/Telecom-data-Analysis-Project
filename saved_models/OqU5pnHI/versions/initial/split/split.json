@@ -1,0 +1,60 @@
+{
+  "cparams": {
+    "extractBeforePrepare": true,
+    "selection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "instanceIdRefresher": 0
+  },
+  "generationDate": 1592574049588,
+  "policyId": "extractBeforePrepare\u003dtrue,,ds\u003dcustomers_prepared,sel\u003d(method\u003dhead-s,records\u003d100000)",
+  "instanceId": "61e9aa50541cd2e380b5b117eef63869-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"State","type":"string"},
+      {"name":"Account Length","type":"bigint"},
+      {"name":"Area Code","type":"bigint"},
+      {"name":"Phone","type":"string"},
+      {"name":"Int\u0027l Plan","type":"bigint"},
+      {"name":"VMail Plan","type":"bigint"},
+      {"name":"VMail Message","type":"bigint"},
+      {"name":"Day_Mins","type":"double"},
+      {"name":"Day Calls","type":"bigint"},
+      {"name":"Day_Charge","type":"double"},
+      {"name":"Eve_Mins","type":"double"},
+      {"name":"Eve Calls","type":"bigint"},
+      {"name":"Eve_Charge","type":"double"},
+      {"name":"Night_Mins","type":"double"},
+      {"name":"Night Calls","type":"bigint"},
+      {"name":"Night_Charge","type":"double"},
+      {"name":"Intl_Mins","type":"double"},
+      {"name":"Total_min","type":"double"},
+      {"name":"Intl Calls","type":"bigint"},
+      {"name":"Intl_Charge","type":"double"},
+      {"name":"Total_Charge","type":"double"},
+      {"name":"CustServ Calls","type":"bigint"},
+      {"name":"Churn?","type":"bigint"}
+    ],
+    "userModified": false
+  },
+  "fullPath": "full.csv.gz",
+  "trainRows": 0,
+  "testRows": 0,
+  "fullRows": 3333
+}

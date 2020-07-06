@@ -1,0 +1,375 @@
+{
+    "per_feature": {
+        "Int'l Plan": {
+            "stats": {
+                "std": 0.2958791454844224, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.0969096909690969, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.0969096909690969
+        }, 
+        "CustServ Calls": {
+            "stats": {
+                "std": 1.3154910448664843, 
+                "p99": 6.0, 
+                "min": 0.0, 
+                "max": 9.0, 
+                "average": 1.5628562856285628, 
+                "median": 1.0
+            }, 
+            "missing_impute_with_value": 1.5628562856285628
+        }, 
+        "State": {
+            "stats": {
+                "mostFrequentValue": "WV", 
+                "leastFrequentValue": "CA"
+            }, 
+            "category_possible_counts": [
+                106, 
+                84, 
+                83, 
+                80, 
+                78, 
+                78, 
+                78, 
+                77, 
+                77, 
+                74, 
+                73, 
+                73, 
+                73, 
+                72, 
+                72, 
+                71, 
+                70, 
+                70, 
+                68, 
+                68, 
+                68, 
+                66, 
+                66, 
+                66, 
+                65, 
+                65, 
+                65, 
+                64, 
+                63, 
+                63, 
+                62, 
+                62, 
+                62, 
+                61, 
+                61, 
+                61, 
+                60, 
+                60, 
+                59, 
+                58, 
+                56, 
+                55, 
+                54, 
+                54, 
+                53, 
+                53, 
+                52, 
+                51, 
+                45, 
+                44, 
+                34
+            ], 
+            "category_possible_values": [
+                "WV", 
+                "MN", 
+                "NY", 
+                "AL", 
+                "WI", 
+                "OH", 
+                "OR", 
+                "WY", 
+                "VA", 
+                "CT", 
+                "MI", 
+                "ID", 
+                "VT", 
+                "TX", 
+                "UT", 
+                "IN", 
+                "KS", 
+                "MD", 
+                "MT", 
+                "NJ", 
+                "NC", 
+                "NV", 
+                "WA", 
+                "CO", 
+                "MS", 
+                "RI", 
+                "MA", 
+                "AZ", 
+                "MO", 
+                "FL", 
+                "NM", 
+                "ME", 
+                "ND", 
+                "DE", 
+                "OK", 
+                "NE", 
+                "SC", 
+                "SD", 
+                "KY", 
+                "IL", 
+                "NH", 
+                "AR", 
+                "DC", 
+                "GA", 
+                "TN", 
+                "HI", 
+                "AK", 
+                "LA", 
+                "PA", 
+                "IA", 
+                "CA"
+            ]
+        }, 
+        "VMail Message": {
+            "stats": {
+                "std": 13.68836537203884, 
+                "p99": 43.0, 
+                "min": 0.0, 
+                "max": 51.0, 
+                "average": 8.099009900990099, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 8.099009900990099
+        }, 
+        "Night_Mins": {
+            "stats": {
+                "std": 50.5738470136583, 
+                "p99": 317.4479999999998, 
+                "min": 23.2, 
+                "max": 395.0, 
+                "average": 200.87203720372048, 
+                "median": 201.2
+            }, 
+            "missing_impute_with_value": 200.87203720372048
+        }, 
+        "Intl_Mins": {
+            "stats": {
+                "std": 2.7918395484084204, 
+                "p99": 16.667999999999985, 
+                "min": 0.0, 
+                "max": 20.0, 
+                "average": 10.237293729372933, 
+                "median": 10.3
+            }, 
+            "missing_impute_with_value": 10.237293729372933
+        }, 
+        "Account Length": {
+            "stats": {
+                "std": 39.822105928595604, 
+                "p99": 195.0, 
+                "min": 1.0, 
+                "max": 243.0, 
+                "average": 101.06480648064806, 
+                "median": 101.0
+            }, 
+            "missing_impute_with_value": 101.06480648064806
+        }, 
+        "Eve_Mins": {
+            "stats": {
+                "std": 50.71384442581193, 
+                "p99": 318.936, 
+                "min": 0.0, 
+                "max": 363.7, 
+                "average": 200.98034803480346, 
+                "median": 201.4
+            }, 
+            "missing_impute_with_value": 200.98034803480346
+        }, 
+        "Eve Calls": {
+            "stats": {
+                "std": 19.92262529394309, 
+                "p99": 147.0, 
+                "min": 0.0, 
+                "max": 170.0, 
+                "average": 100.11431143114311, 
+                "median": 100.0
+            }, 
+            "missing_impute_with_value": 100.11431143114311
+        }, 
+        "Total_min": {
+            "stats": {
+                "std": 89.95425115217, 
+                "p99": 798.8759999999996, 
+                "min": 284.3, 
+                "max": 884.9999999999999, 
+                "average": 591.8647764776483, 
+                "median": 593.5999999999999
+            }, 
+            "missing_impute_with_value": 591.8647764776483
+        }, 
+        "Eve_Charge": {
+            "stats": {
+                "std": 4.310667643110339, 
+                "p99": 27.113599999999998, 
+                "min": 0.0, 
+                "max": 30.91, 
+                "average": 17.083540354035392, 
+                "median": 17.12
+            }, 
+            "missing_impute_with_value": 17.083540354035392
+        }, 
+        "Phone": {
+            "stats": {}
+        }, 
+        "Day_Mins": {
+            "stats": {
+                "std": 54.46738920237142, 
+                "p99": 305.168, 
+                "min": 0.0, 
+                "max": 350.8, 
+                "average": 179.77509750975116, 
+                "median": 179.4
+            }, 
+            "missing_impute_with_value": 179.77509750975116
+        }, 
+        "Intl_Charge": {
+            "stats": {
+                "std": 0.7537726126630453, 
+                "p99": 4.5003999999999955, 
+                "min": 0.0, 
+                "max": 5.4, 
+                "average": 2.764581458145804, 
+                "median": 2.78
+            }, 
+            "missing_impute_with_value": 2.764581458145804
+        }, 
+        "Day Calls": {
+            "stats": {
+                "std": 20.069084207300854, 
+                "p99": 146.0, 
+                "min": 0.0, 
+                "max": 165.0, 
+                "average": 100.43564356435644, 
+                "median": 101.0
+            }, 
+            "missing_impute_with_value": 100.43564356435644
+        }, 
+        "Total_Charge": {
+            "stats": {
+                "std": 10.50226075242101, 
+                "p99": 83.83959999999993, 
+                "min": 22.93, 
+                "max": 96.15, 
+                "average": 59.44975397539747, 
+                "median": 59.47
+            }, 
+            "missing_impute_with_value": 59.44975397539747
+        }, 
+        "Churn?": {
+            "stats": {
+                "std": 0.35206742362412946, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.14491449144914492, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.14491449144914492
+        }, 
+        "Night_Charge": {
+            "stats": {
+                "std": 2.2758728376600317, 
+                "p99": 14.283999999999992, 
+                "min": 1.04, 
+                "max": 17.77, 
+                "average": 9.039324932493264, 
+                "median": 9.05
+            }, 
+            "missing_impute_with_value": 9.039324932493264
+        }, 
+        "Night Calls": {
+            "stats": {
+                "std": 19.568609346058615, 
+                "p99": 146.67999999999984, 
+                "min": 33.0, 
+                "max": 175.0, 
+                "average": 100.10771077107711, 
+                "median": 100.0
+            }, 
+            "missing_impute_with_value": 100.10771077107711
+        }, 
+        "Intl Calls": {
+            "stats": {
+                "std": 2.4612142705460887, 
+                "p99": 13.0, 
+                "min": 0.0, 
+                "max": 20.0, 
+                "average": 4.4794479447944795, 
+                "median": 4.0
+            }, 
+            "missing_impute_with_value": 4.4794479447944795
+        }, 
+        "Day_Charge": {
+            "stats": {
+                "std": 9.259434553930507, 
+                "p99": 51.876799999999996, 
+                "min": 0.0, 
+                "max": 59.64, 
+                "average": 30.562307230723093, 
+                "median": 30.5
+            }, 
+            "missing_impute_with_value": 30.562307230723093
+        }, 
+        "VMail Plan": {
+            "stats": {
+                "std": 0.4473978703800777, 
+                "p99": 1.0, 
+                "min": 0.0, 
+                "max": 1.0, 
+                "average": 0.27662766276627665, 
+                "median": 0.0
+            }, 
+            "missing_impute_with_value": 0.27662766276627665
+        }, 
+        "Area Code": {
+            "stats": {
+                "std": 42.371290485606224, 
+                "p99": 510.0, 
+                "min": 408.0, 
+                "max": 510.0, 
+                "average": 437.18241824182417, 
+                "median": 415.0
+            }, 
+            "missing_impute_with_value": 437.18241824182417
+        }
+    }, 
+    "feature_order": [
+        "Int'l Plan", 
+        "CustServ Calls", 
+        "State", 
+        "VMail Message", 
+        "Night_Mins", 
+        "Intl_Mins", 
+        "Account Length", 
+        "Eve_Mins", 
+        "Eve Calls", 
+        "Total_min", 
+        "Eve_Charge", 
+        "Phone", 
+        "Day_Mins", 
+        "Intl_Charge", 
+        "Day Calls", 
+        "Total_Charge", 
+        "Churn?", 
+        "Night_Charge", 
+        "Night Calls", 
+        "Intl Calls", 
+        "Day_Charge", 
+        "VMail Plan", 
+        "Area Code"
+    ]
+}

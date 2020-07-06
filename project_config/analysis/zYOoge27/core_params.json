@@ -1,0 +1,108 @@
+{
+  "inputDatasetSmartName": "customers_prepared_scored",
+  "script": {
+    "steps": [
+      {
+        "type": "CreateColumnWithGREL",
+        "params": {
+          "column": "ratio_total_min",
+          "expression": "Total_Charge/Total_min"
+        },
+        "metaType": "PROCESSOR",
+        "preview": true,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
+    "maxProcessedMemTableBytes": -1,
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "columnWidthsByName": {
+      "State": 100,
+      "Account Length": 120,
+      "Area Code": 100,
+      "Phone": 100,
+      "Int\u0027l Plan": 100,
+      "VMail Plan": 100,
+      "VMail Message": 113,
+      "Day_Mins": 100,
+      "Day Calls": 100,
+      "Day_Charge": 100,
+      "Eve_Mins": 100,
+      "Eve Calls": 100,
+      "Eve_Charge": 100,
+      "Night_Mins": 100,
+      "Night Calls": 100,
+      "Night_Charge": 105,
+      "Intl_Mins": 100,
+      "Total_min": 141,
+      "Intl Calls": 100,
+      "Intl_Charge": 100,
+      "Total_Charge": 106,
+      "CustServ Calls": 120,
+      "Churn?": 100,
+      "cluster_labels": 148
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "sorting": [],
+    "analysisColumnData": {},
+    "explorationSampling": {
+      "selection": {
+        "maxStoredBytes": 104857600,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS"
+  },
+  "charts": [],
+  "name": "Analyze customers_prepared_scored",
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1592639677185
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1592639515315
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
